@@ -1,6 +1,7 @@
 exception/RenameException.class
 exception/MoveFileException.class
 model/FileOrdinary.class
+exception/UploadFileException.class
 exception/UploadMultipleFileException.class
 exception/CopyFileException.class
 exception/DownloadFileException.class

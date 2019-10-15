@@ -15,6 +15,7 @@
 /home/vukasin/SK/FileStorageSpec/src/main/java/model/Zipper.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/model/Directory.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/MoveDirException.java
+/home/vukasin/SK/FileStorageSpec/src/main/java/exception/UploadFileException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/DeleteFileException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/CopyFileException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/UploadMultipleFileException.java

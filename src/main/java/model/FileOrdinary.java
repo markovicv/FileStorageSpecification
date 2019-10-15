@@ -17,6 +17,7 @@ public interface FileOrdinary {
 
     public void download(String srcPath,String dstPath) throws DownloadFileException;
 
+    public void upload(String scrPath,String dstPath) throws UploadFileException;
 
     public void copy(String srcPath,String dstPath) throws CopyFileException;
 
