@@ -1,5 +1,8 @@
 package model;
 
+import exception.UnzipDirException;
+import net.lingala.zip4j.ZipFile;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -7,12 +10,25 @@ import java.io.FileOutputStream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
+/**
+ * @author Vukasin Markovic
+ * @author Nesko Simic
+ *
+ * Class that contains all relevant compressing operations
+ */
+
 public class Zipper {
 
     public Zipper(){
 
     }
 
+    /**
+     *
+     * @param file File we want to zip
+     * @param path Path where we want to zip it
+     * @param ime Name of the zip
+     */
     public void zipFile(File file,String path,String ime) {
         if(file.isFile()){
             try {
@@ -35,6 +51,13 @@ public class Zipper {
             }
         }
     }
+
+    /**
+     * Zips the whole directory and all of his subfiles and subdirectories
+     * @param file Directroy we want to zip
+     * @param path Path where it is located
+     * @param ime Name of the zip
+     */
     public void zipDir(File file,String path,String ime){
         try{
             FileOutputStream fileOutputStream = new FileOutputStream(path+File.separator+ime+".zip");
@@ -49,6 +72,21 @@ public class Zipper {
         catch(Exception e){
 
         }
+    }
+    public void unzipDir(String soruce,String destination) throws UnzipDirException {
+        if(soruce == null || soruce.equals(""))
+            throw new UnzipDirException("soruce destination is empty");
+        if(destination == null || destination.equals(""))
+            throw new UnzipDirException("destination is empty");
+        try{
+            ZipFile zipFile = new ZipFile(soruce);
+            zipFile.extractAll(destination);
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+
+
     }
 
 

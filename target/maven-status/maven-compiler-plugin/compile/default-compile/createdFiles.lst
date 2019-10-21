@@ -14,6 +14,8 @@ exception/MoveDirException.class
 exception/CreateFileException.class
 exception/CreateDirException.class
 exception/ZipException.class
+exception/DataBaseException.class
+exception/UnzipDirException.class
 exception/DeleteDirException.class
 exception/DirecrotyListException.class
 model/Directory.class

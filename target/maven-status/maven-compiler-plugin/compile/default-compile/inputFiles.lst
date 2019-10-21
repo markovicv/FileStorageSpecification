@@ -8,6 +8,7 @@
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/ZipException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/MoveFileException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/UploadDirException.java
+/home/vukasin/SK/FileStorageSpec/src/main/java/exception/DataBaseException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/App.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/DeleteDirException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/CreateFileException.java
@@ -17,5 +18,6 @@
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/MoveDirException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/UploadFileException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/DeleteFileException.java
+/home/vukasin/SK/FileStorageSpec/src/main/java/exception/UnzipDirException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/CopyFileException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/UploadMultipleFileException.java
