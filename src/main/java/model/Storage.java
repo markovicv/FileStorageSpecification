@@ -14,6 +14,8 @@ public interface Storage {
      */
 
     public void iniStorage() throws DataBaseException;
+    public boolean auth(String username,String password);
     public String  getStoragePath();
     public String getStorageName();
+    public User getUser();
 }

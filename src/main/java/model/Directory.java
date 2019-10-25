@@ -14,7 +14,7 @@ public interface Directory {
      * @throws CreateDirException Throws exception if path doens't exist or if name is empty
      */
 
-    public void create(String path,String name,int prLevel) throws CreateDirException;
+    public void create(String path,String name) throws CreateDirException;
 
     /**
      *
@@ -22,7 +22,7 @@ public interface Directory {
      * @throws DeleteDirException Throws exception if the path doesn't exist
      */
 
-    public void delete(String pathName,int prLevel) throws DeleteDirException;
+    public void delete(String pathName) throws DeleteDirException;
 
     /**
      *
@@ -40,7 +40,7 @@ public interface Directory {
      * @throws RenameException Throws exception if the path doesn't exist or if the new name is null
      */
 
-    public void rename(String path,String newName,int prLevel) throws RenameException;
+    public void rename(String path,String newName) throws RenameException;
 
     /**
      *

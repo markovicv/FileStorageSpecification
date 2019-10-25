@@ -19,7 +19,7 @@ public interface FileOrdinary {
      * @throws CreateFileException throws exception if path or name is null or if an error occurred during creation
      */
 
-    public void create(String path,String name,int prLevel) throws CreateFileException;
+    public void create(String path,String name) throws CreateFileException;
 
 
     /**
@@ -29,7 +29,7 @@ public interface FileOrdinary {
      */
 
 
-    public void delete(String pathName,int prLevel) throws DeleteFileException;
+    public void delete(String pathName) throws DeleteFileException;
 
     /**
      *
@@ -49,7 +49,7 @@ public interface FileOrdinary {
      */
 
 
-    public void rename(String path,String newName,int prLevel) throws RenameException;
+    public void rename(String path,String newName) throws RenameException;
 
     /**
      *

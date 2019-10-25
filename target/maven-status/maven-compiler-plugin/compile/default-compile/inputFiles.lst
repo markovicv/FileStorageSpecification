@@ -4,6 +4,7 @@
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/DownloadFileException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/FileListException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/CreateDirException.java
+/home/vukasin/SK/FileStorageSpec/src/main/java/model/User.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/DownloadDirException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/ZipException.java
 /home/vukasin/SK/FileStorageSpec/src/main/java/exception/MoveFileException.java
